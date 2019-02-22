@@ -6,3 +6,19 @@
 minecraftinstance\.json
 
 mods/foamfix-0\.10\.3-1\.12\.2\.jar
+
+local/
+
+logs/
+
+crafttweaker\.log
+
+options\.txt
+
+optionsof\.txt
+
+usercache\.json
+
+usernamecache\.json
+
+saves/
