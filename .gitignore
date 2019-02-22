@@ -22,3 +22,5 @@ usercache\.json
 usernamecache\.json
 
 saves/
+
+config/splash\.properties
