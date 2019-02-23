@@ -25,19 +25,19 @@ RecipeBuilder.get("blacksmith") //Elec core
     RecipeBuilder.get("blacksmith") //Alum plate
       .setShapeless([<ore:ingotAluminium>, <ore:ingotAluminium>])
       .addTool(<ore:artisansHammer>, 3)
-      .addOutput(<ore:plateAluminium>)
+      .addOutput(<libvulpes:productplate:9>)
       .create();
 
 
     RecipeBuilder.get("blacksmith") //Dense alum plate
       .setShapeless([<ore:plateAluminium>, <ore:plateAluminium>])
       .addTool(<ore:artisansHammer>, 3)
-      .addOutput(<ore:plateDenseAluminium>)
+      .addOutput(<modernmetals:aluminum_dense_plate>)
       .create();
 
 
     RecipeBuilder.get("blacksmith") //Alum casing
       .setShapeless([<ore:plateDenseAluminium>])
       .addTool(<ore:artisansHammer>, 2)
-      .addOutput(<ore:casingAluminium>)
+      .addOutput(<modernmetals:aluminum_casing>)
       .create();
