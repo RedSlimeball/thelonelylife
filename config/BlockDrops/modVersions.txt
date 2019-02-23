@@ -6,6 +6,7 @@
   "extendedcrafting": "1.5.2",
   "jeroreintegration": "1.1.0",
   "contenttweaker": "1.12.2-4.9.1",
+  "oredicttips": "2.0.2",
   "reborncore": "3.13.4.419",
   "artisanworktables": "1.12.2-1.20.1",
   "ctm": "MC1.12.2-0.3.3.22",
