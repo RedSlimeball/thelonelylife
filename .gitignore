@@ -24,3 +24,11 @@ usernamecache\.json
 saves/
 
 config/splash\.properties
+
+\.mixin\.out/
+
+mods/memory_repo/
+
+dropt\.log
+
+journeymap/
