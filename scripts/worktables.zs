@@ -79,8 +79,11 @@ RecipeBuilder.get("blacksmith") //Elec core
       .create();
 
     RecipeBuilder.get("chemist") //Basic circ
-      .setShapeless([<ore:conductor>, <ore:conductor>, <libvulpes:productplate:3>, <ore:nuggetLapis>])
-      .setSecondaryIngredients([<mekanism:configurator>])
-      .setConsumeSecondaryIngredients(false)
+      .setShapeless([<ore:conductor>, <ore:conductor>, <ore:nuggetLapis>])
+      .setFluid(<fluid:silicon> * 250)
       .addOutput(<mekanism:controlcircuit:0>)
       .create();
+
+      //<libvulpes:productplate:3>,
+      //setSecondaryIngredients([<mekanism:configurator>])
+      //setConsumeSecondaryIngredients(false)
