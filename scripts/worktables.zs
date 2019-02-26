@@ -87,3 +87,11 @@ RecipeBuilder.get("blacksmith") //Elec core
       //<libvulpes:productplate:3>,
       //setSecondaryIngredients([<mekanism:configurator>])
       //setConsumeSecondaryIngredients(false)
+
+
+    RecipeBuilder.get("blacksmith") //Enriched alloy
+      .setShapeless([<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>])
+      .addTool(<ore:artisansHammer>, 4)
+      .setFluid(<fluid:redstone> * 288)
+      .addOutput(<mekanism:enrichedalloy> * 2)
+      .create();
